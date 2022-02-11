@@ -53,6 +53,21 @@ export default function AnimeDetail({route}) {
       <View style={styles.itemContainer}> 
         <Text>{route.params.rating} (maximum score: 100)</Text>
       </View>
+
+      <View style={styles.titleContainer}>
+      <Text style={styles.title}>
+      <Image style={styles.icon} 
+          source={require('../../assets/icons/YouTube.png')}/>  Video</Text>
+    </View>
+
+    <View style={styles.videoContainer}> 
+      <YoutubePlayer
+          height={300}
+          width={imageW}
+          play={false}
+          videoId={route.params.video}/>
+    </View>
+
     </ScrollView>
   )
 }
