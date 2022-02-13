@@ -10,7 +10,7 @@ tenho MacOS para utilizar emuladores.
 
 * Tive dificuldades em animar a imagem de background interpolada com flatlist, mas o resultado com fade ficou legal.
 
-* Tentei caprixar a o maximo na interface.
+* Tentei caprichar ao máximo na interface.
 
 * Vale testar o app em um emulador Android, a dependencia "YouTube iFrame", pode crashar em alguns dispositivos Android antigos.
 
